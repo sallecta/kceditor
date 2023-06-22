@@ -1,7 +1,7 @@
 Software License Agreement
 ==========================
 
-KCEditor - The next editor for Internet - https://ckeditor.com/
+KCEditor - The next editor for Internet - https://github.com/sallecta/kceditor/
 Copyleft 🄯 2023, Alexander Gribkov.
 
 Licensed under the terms of any of the following licenses at your
