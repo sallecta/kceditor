@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2023, CKSource.
+For licensing, see LICENSE.md or https://github.com/sallecta/kceditor/blob/main/LICENSE.md
+-->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Using the  KCEditor Read-Only API &mdash;  KCEditor Sample</title>
+	<script src="../distr/kceditor.js"></script>
+	<link rel="stylesheet" href="sample.css">
+	<meta name="description" content="Try the latest sample of KCEditor and learn more about customizing your WYSIWYG editor with endless possibilities.">
+	<script>
+
+		var editor;
+
+		// The instanceReady event is fired, when an instance of  KCEditor has finished
+		// its initialization.
+		kceditor.on( 'instanceReady', function( ev ) {
+			editor = ev.editor;
+
+			// Show this "on" button.
+			document.getElementById( 'readOnlyOn' ).style.display = '';
+
+			// Event fired when the readOnly property changes.
+			editor.on( 'readOnly', function() {
+				document.getElementById( 'readOnlyOn' ).style.display = this.readOnly ? 'none' : '';
+				document.getElementById( 'readOnlyOff' ).style.display = this.readOnly ? '' : 'none';
+			});
+		});
+
+		function toggleReadOnly( isReadOnly ) {
+			// Change the read-only state of the editor.
+			// https://github.com/sallecta/kceditor/docs/ckeditor4/latest/api/kceditor_editor.html#method-setReadOnly
+			editor.setReadOnly( isReadOnly );
+		}
+
+	</script>
+</head>
+<body>
+<!--
+	<div class="warning">
+		This sample is not ready yet.
+	</div>
+-->
+	<h1 class="samples">
+		<a href="index.html"> KCEditor Samples</a> &raquo; Using the  KCEditor Read-Only API
+	</h1>
+	.
+	<div class="description">
+		<p>
+			This sample shows how to use the
+			<code><a class="samples" href="https://github.com/sallecta/kceditor/docs/ckeditor4/latest/api/kceditor_editor.html#method-setReadOnly">setReadOnly</a></code>
+			API to put editor into the read-only state that makes it impossible for users to change the editor contents.
+		</p>
+		<p>
+			For details on how to create this setup check the source code of this sample page.
+		</p>
+	</div>
+	<form action="sample_posteddata.php" method="post">
+		<p>
+			<textarea class="kceditor" id="editor1" name="editor1" cols="100" rows="10">&lt;p&gt;This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using &lt;a href="https://github.com/sallecta/kceditor/"&gt;KCEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
+		</p>
+		<p>
+			<input id="readOnlyOn" onclick="toggleReadOnly();" type="button" value="Make it read-only" style="display:none">
+			<input id="readOnlyOff" onclick="toggleReadOnly( false );" type="button" value="Make it editable again" style="display:none">
+		</p>
+	</form>
+	<div id="footer">
+		<hr>
+		<p>
+			 KCEditor - The next editor for the Internet - <a class="samples" href="https://github.com/sallecta/kceditor/">https://github.com/sallecta/kceditor</a>
+		</p>
+		<p id="copy">
+			Copyright &copy; 2003-2023, <a class="samples" href="https://github.com/sallecta/kceditor/">KCEditor</a>.
+		</p>
+	</div>
+</body>
+</html>
