@@ -1,41 +1,38 @@
-﻿/**
- * @license GPL / LGPL / MPL
- * For licensing, see LICENSE.md or https://github.com/sallecta/kceditor/blob/main/LICENSE.md
- */
+﻿/*
+license GPL / LGPL / MPL
+For licensing, see LICENSE.md or https://github.com/sallecta/kceditor/blob/main/LICENSE.md
 
-/**
- * @fileOverview The Source Editing Area plugin. It registers the "source" editing
- *		mode, which displays raw  HTML data being edited in the editor.
+The Source Editing Area plugin. It registers the "source" editing
+mode, which displays raw  HTML data being edited in the editor.
  */
 
 ( function() {
 	kceditor.plugins.add( 'sourcearea', {
-		// jscs:disable maximumLineLength
-		lang: 'en', // %REMOVE_LINE_CORE%
-		// jscs:enable maximumLineLength
-		icons: 'source,source-rtl', // %REMOVE_LINE_CORE%
-		hidpi: true, // %REMOVE_LINE_CORE%
+		lang: 'en,ru',
+		icons: 'source,source-rtl',
+		hidpi: true,
 		init: function( editor ) {
 			// Source mode in inline editors is only available through the "sourcedialog" plugin.
 			if ( editor.elementMode == kceditor.ELEMENT_MODE_INLINE )
-				return;
-
+			{ return; }
 			var sourcearea = kceditor.plugins.sourcearea;
-
-			editor.addMode( 'source', function( callback ) {
-				var contentsSpace = editor.ui.space( 'contents' ),
-					textarea = contentsSpace.getDocument().createElement( 'textarea' );
-
+			editor.addMode( 'source', function( a_fn )
+			{
+				var contentsSpace = editor.ui.space( 'contents' );
+				var textarea = contentsSpace.getDocument().createElement( 'textarea' );
 				textarea.setStyles(
-					kceditor.tools.extend( {
-						// IE7 has overflow the <textarea> from wrapping table cell.
-						width: kceditor.env.ie7Compat ? '99%' : '100%',
-						height: '100%',
-						resize: 'none',
-						outline: 'none',
-						'text-align': 'left'
-					},
-					kceditor.tools.cssVendorPrefix( 'tab-size', editor.config.sourceAreaTabSize || 4 ) ) );
+						kceditor.tools.extend
+						(
+							{
+								width: '100%',
+								height: '100%',
+								resize: 'none',
+								outline: 'none',
+								'text-align': 'left'
+							},
+							kceditor.tools.cssVendorPrefix( 'tab-size', editor.config.sourceAreaTabSize || 4 ) 
+						)
+				);
 
 				// Make sure that source code is always displayed LTR,
 				// regardless of editor language (https://dev.kceditor.com/ticket/10105).
@@ -62,7 +59,7 @@
 
 				editor.fire( 'ariaWidget', this );
 
-				callback();
+				a_fn();
 			} );
 
 			editor.addCommand( 'source', sourcearea.commands.source );

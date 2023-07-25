@@ -1,6 +1,6 @@
 ﻿kceditor.plugins.add( 'about', {
 	requires: 'dialog',
-	lang: 'en',
+	lang: 'en,ru',
 	icons: 'about',
 	hidpi: true,
 	init: function( editor ) {

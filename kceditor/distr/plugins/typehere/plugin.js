@@ -4,7 +4,7 @@ Writes "type here" text if editor content is empty
 ( function() {
 	kceditor.plugins.add( 'typehere', {
 		
-		lang: 'en',
+		lang: 'en,ru',
 		
 		isSupportedEnvironment: function() {
 			return !kceditor.env.ie || kceditor.env.version >= 9;

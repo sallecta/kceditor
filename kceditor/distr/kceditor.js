@@ -4,7 +4,7 @@ e.g. 87bm == 08071122)
 */
 kceditor.timestamp = '';
 
-kceditor.version = '1.0.2';
+kceditor.version = '1.0.3';
 
 kceditor.revision = '0';
 

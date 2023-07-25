@@ -1,5 +1,5 @@
 ﻿kceditor.plugins.setLang( 'about', 'en', {
-	copy: 'Copyright &copy; $1. All rights reserved.',
+	copy: 'Copyleft &#127279; $1. All rights reserved.',
 	dlgTitle: 'About KCEditor',
 	moreInfo: 'Licensed under the terms of any of the following licenses: '+
 	'<ul>'+
