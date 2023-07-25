@@ -2,7 +2,7 @@
 Writes "type here" text if editor content is empty
  */
 ( function() {
-	kceditor.plugins.add( 'editortxt', {
+	kceditor.plugins.add( 'typehere', {
 		
 		lang: 'en',
 		
@@ -11,11 +11,11 @@ Writes "type here" text if editor content is empty
 		},
 
 		onLoad: function() {
-			kceditor.addCss( kceditor.plugins.editortxt.styles );
+			kceditor.addCss( kceditor.plugins.typehere.styles );
 		},
 
 		init: function( a_editor ) {
-			if ( !this.isSupportedEnvironment() || !a_editor.config.editortxt ) {
+			if ( !this.isSupportedEnvironment() || !a_editor.config.typehere ) {
 				return;
 			}
 
@@ -26,22 +26,22 @@ Writes "type here" text if editor content is empty
 			// Debounce placeholder when typing to improve performance (#5184).
 			bind_event( a_editor, 'change', a_editor.config.typehere_delay );
 			
-			var lang = a_editor.lang.editortxt;
-			a_editor.config.editortxt = lang.typeHere;
+			var lang = a_editor.lang.typehere;
+			a_editor.config.typehere = lang.typeHere;
 		}
 	} );
 
-	var ATTRIBUTE_NAME = 'data-cke-editortxt';
+	var ATTRIBUTE_NAME = 'data-cke-typehere';
 
 	/**
 	 * Namespace providing the configuration for the Editor Placeholder plugin.
 	 *
 	 * @singleton
-	 * @class kceditor.plugins.editortxt
+	 * @class kceditor.plugins.typehere
 	 * @since 4.15.0
 	 * @member kceditor.plugins
 	 */
-	kceditor.plugins.editortxt = {
+	kceditor.plugins.typehere = {
 		/**
 		 * Styles that would be applied to the editor by the placeholder text when visible.
 		 *
@@ -91,7 +91,7 @@ Writes "type here" text if editor content is empty
 		var editor = evt.listenerData.editor,
 			hasFocus = editor.focusManager.hasFocus,
 			editable = editor.editable(),
-			txt = editor.config.editortxt;
+			txt = editor.config.typehere;
 
 		if ( !isEditorEmpty( editor ) || hasFocus ) {
 			return editable.removeAttribute( ATTRIBUTE_NAME );
@@ -101,15 +101,15 @@ Writes "type here" text if editor content is empty
 	}
 
 	/**
-	 * The delay in milliseconds before the editortxt is toggled when changing editor's text.
+	 * The delay in milliseconds before the typehere is toggled when changing editor's text.
 	 *
 	 * The main purpose of this option is to improve performance when typing in the editor, so
-	 * that the editortxt is not updated every time the user types a character.
+	 * that the typehere is not updated every time the user types a character.
 	 *
 	 * @cfg {String} [typehere_delay=150]
 	 * @since 4.19.1
 	 * @member kceditor.config
 	 */
 	kceditor.config.typehere_delay = 1150;
-	kceditor.config.editortxt = 'Type here (global)';
+	kceditor.config.typehere = 'Type here (global)';
 }() );
