@@ -187,10 +187,11 @@
 			}
 		}
 	};
-
-	kceditor.domReady( function() {
+	function load_inline()
+	{
 		!kceditor.disableAutoInline && kceditor.inlineAll();
-	} );
+	}
+	kceditor.events.domReady( load_inline );
 
 } )();
 

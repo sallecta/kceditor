@@ -148,7 +148,7 @@ kceditor.on( 'instanceDestroyed', function() {
 } );
 
 // Load the bootstrap script.
-kceditor.loader.load( '_bootstrap' ); // %REMOVE_LINE%
+kceditor.loader.load( 'bootstrap' ); 
 
 // Tri-state constants.
 /**

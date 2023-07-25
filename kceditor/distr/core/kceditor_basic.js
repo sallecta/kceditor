@@ -67,7 +67,7 @@ if ( kceditor.status == 'unloaded' ) {
 		};
 
 		( function() {
-			var onload = function() {
+			var load_basic = function() {
 					var loadFullCore = kceditor.loadFullCore,
 						loadFullCoreTimeout = kceditor.loadFullCoreTimeout;
 
@@ -86,7 +86,7 @@ if ( kceditor.status == 'unloaded' ) {
 					}
 				};
 
-			kceditor.domReady( onload );
+			kceditor.events.domReady( load_basic );
 		} )();
 
 		kceditor.status = 'basic_loaded';

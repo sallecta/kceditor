@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1122.5197"
+   height="793.70081"
+   viewBox="0 0 1122.5196 793.70082"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   sodipodi:docname="btns.src.svg"
+   inkscape:export-filename="icon.src.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#c8c8c8"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="240.85825"
+     inkscape:cy="121.81019"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" /><defs
+     id="defs2"><filter
+       style="color-interpolation-filters:sRGB"
+       height="1.0325825"
+       width="1.0440984"
+       y="-0.016291227"
+       x="-0.022049185"
+       inkscape:label="Outline"
+       id="filter11719"><feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="11.5742"
+         result="blur1"
+         id="feGaussianBlur11695" /><feComposite
+         in="blur1"
+         in2="SourceGraphic"
+         operator="xor"
+         result="composite1"
+         id="feComposite11697" /><feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 31.7004 -8.54044 "
+         result="colormatrix1"
+         id="feColorMatrix11699" /><feGaussianBlur
+         stdDeviation="8.17735"
+         result="blur2"
+         id="feGaussianBlur11701" /><feComposite
+         in="blur2"
+         in2="blur2"
+         operator="over"
+         result="composite2"
+         id="feComposite11703" /><feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 56.0307 -5.90216 "
+         result="colormatrix2"
+         id="feColorMatrix11705" /><feGaussianBlur
+         stdDeviation="0.559008"
+         result="blur3"
+         id="feGaussianBlur11707" /><feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         result="colormatrix3"
+         id="feColorMatrix11709" /><feFlood
+         flood-opacity="1"
+         flood-color="rgb(255,255,255)"
+         result="flood"
+         id="feFlood11711" /><feComposite
+         in="flood"
+         in2="colormatrix3"
+         operator="in"
+         result="composite3"
+         id="feComposite11713" /><feComposite
+         in="SourceGraphic"
+         in2="colormatrix3"
+         operator="out"
+         result="composite4"
+         id="feComposite11715" /><feComposite
+         in="composite4"
+         in2="composite3"
+         k2="1"
+         k3="1"
+         operator="arithmetic"
+         result="composite5"
+         id="feComposite11717"
+         k1="0"
+         k4="0" /></filter><filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2810"
+       x="-0.0073364373"
+       y="-0.10529737"
+       width="1.0146729"
+       height="1.2105947"><feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.95874971"
+         id="feGaussianBlur2812" /></filter></defs><g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="bg"
+     style="display:inline"
+     transform="translate(-348.2621,-278.86592)"
+     sodipodi:insensitive="true"><rect
+       style="display:inline;fill:#ffffff;fill-opacity:0.322882;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:bevel"
+       id="btns_p"
+       width="32"
+       height="32"
+       x="681.89453"
+       y="300.26917"
+       inkscape:export-filename="./btns_p.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><rect
+       style="display:inline;fill:#ffffff;fill-opacity:0.322882;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:bevel"
+       id="btns_h6"
+       width="32"
+       height="32"
+       x="639.63733"
+       y="300.26917"
+       inkscape:export-filename="./btns_h6.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><rect
+       style="display:inline;fill:#ffffff;fill-opacity:0.322882;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:bevel"
+       id="btns_h5"
+       width="32"
+       height="32"
+       x="597.38019"
+       y="300.26917"
+       inkscape:export-filename="./btns_h5.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><rect
+       style="display:inline;fill:#ffffff;fill-opacity:0.322882;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:bevel"
+       id="btns_h4"
+       width="32"
+       height="32"
+       x="555.12299"
+       y="300.26917"
+       inkscape:export-filename="./btns_h4.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><rect
+       style="display:inline;fill:#ffffff;fill-opacity:0.322882;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:bevel"
+       id="btns_h3"
+       width="32"
+       height="32"
+       x="512.86578"
+       y="300.26917"
+       inkscape:export-filename="./btns_h3.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><rect
+       style="display:inline;fill:#ffffff;fill-opacity:0.322882;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:bevel"
+       id="btns_h2"
+       width="32"
+       height="32"
+       x="470.60861"
+       y="300.26917"
+       inkscape:export-filename="./btns_h2.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><rect
+       style="display:inline;fill:#ffffff;fill-opacity:0.322882;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:bevel"
+       id="btns_h1"
+       width="32"
+       height="32"
+       x="428.35141"
+       y="300.26917"
+       inkscape:export-filename="./btns_h1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><rect
+       style="display:inline;fill:#ffffff;fill-opacity:0.322882;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:bevel"
+       id="btns_txt"
+       width="32"
+       height="32"
+       x="386.09424"
+       y="300.26917"
+       inkscape:export-filename="./btns_txt.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /></g><g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="fx"
+     style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;filter:url(#filter2810)"
+     sodipodi:insensitive="true"><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+       x="82.345566"
+       y="47.903229"
+       id="text1782-0"><tspan
+         sodipodi:role="line"
+         id="tspan1780-5"
+         x="82.345566"
+         y="47.903229"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"><tspan
+           style="font-size:20.5644px;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+           id="tspan1905-1">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.0751px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+           id="tspan1784-1">1</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+       x="123.34338"
+       y="47.903229"
+       id="text1913-0"><tspan
+         sodipodi:role="line"
+         id="tspan1911-8"
+         x="123.34338"
+         y="47.903229"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"><tspan
+           style="font-size:20.5644px;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+           id="tspan1907-5">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.0751px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+           id="tspan1909-0">2</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2344px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+       x="166.56236"
+       y="47.47226"
+       id="text2369-6"><tspan
+         sodipodi:role="line"
+         id="tspan2367-4"
+         x="166.56236"
+         y="47.47226"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2344px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"><tspan
+           style="font-size:20.1424px;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+           id="tspan2363-6">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.4374px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+           id="tspan2365-2">3</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+       x="207.90327"
+       y="47.903229"
+       id="text2377-5"><tspan
+         sodipodi:role="line"
+         id="tspan2375-8"
+         x="207.90327"
+         y="47.903229"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"><tspan
+           style="font-size:20.5644px;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+           id="tspan2371-6">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.0751px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999995"
+           id="tspan2373-2">4</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7088px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999993"
+       x="251.23328"
+       y="47.479736"
+       id="text2385-8"><tspan
+         sodipodi:role="line"
+         id="tspan2383-4"
+         x="251.23328"
+         y="47.479736"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7088px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999993"><tspan
+           style="font-size:19.7922px;fill:#ffffff;fill-opacity:1;stroke-width:0.999993"
+           id="tspan2379-7">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.9082px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999993"
+           id="tspan2381-2">5</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.875px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999996"
+       x="292.96484"
+       y="47.477364"
+       id="text2393-4"><tspan
+         sodipodi:role="line"
+         id="tspan2391-0"
+         x="292.96484"
+         y="47.477364"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.875px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999996"><tspan
+           style="font-size:19.9029px;fill:#ffffff;fill-opacity:1;stroke-width:0.999996"
+           id="tspan2387-6">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.0755px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999996"
+           id="tspan2389-2">6</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.5053px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999993"
+       x="340.78177"
+       y="47.90324"
+       id="text2393-8-9"><tspan
+         sodipodi:role="line"
+         id="tspan2391-9-9"
+         x="340.78177"
+         y="47.90324"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.5053px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999993"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.7168px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999993"
+           id="tspan2389-6-0">P</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.7842px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999998"
+       x="43.768112"
+       y="48.329441"
+       id="text2393-8-8-8"><tspan
+         sodipodi:role="line"
+         id="tspan2391-9-0-1"
+         x="43.768112"
+         y="48.329441"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.7842px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999998"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.0042px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke-width:0.999998"
+           id="tspan2389-6-2-3">T</tspan></tspan></text></g><g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="orig"
+     sodipodi:insensitive="true"><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"
+       x="82.345566"
+       y="47.903229"
+       id="text1782"><tspan
+         sodipodi:role="line"
+         id="tspan1780"
+         x="82.345566"
+         y="47.903229"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"><tspan
+           style="font-size:20.5644px;stroke-width:0.999995"
+           id="tspan1905">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.0751px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"
+           id="tspan1784">1</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"
+       x="123.34338"
+       y="47.903229"
+       id="text1913"><tspan
+         sodipodi:role="line"
+         id="tspan1911"
+         x="123.34338"
+         y="47.903229"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"><tspan
+           style="font-size:20.5644px;stroke-width:0.999995"
+           id="tspan1907">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.0751px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"
+           id="tspan1909">2</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2344px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"
+       x="166.56236"
+       y="47.47226"
+       id="text2369"><tspan
+         sodipodi:role="line"
+         id="tspan2367"
+         x="166.56236"
+         y="47.47226"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2344px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"><tspan
+           style="font-size:20.1424px;stroke-width:0.999995"
+           id="tspan2363">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.4374px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"
+           id="tspan2365">3</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"
+       x="207.90327"
+       y="47.903229"
+       id="text2377"><tspan
+         sodipodi:role="line"
+         id="tspan2375"
+         x="207.90327"
+         y="47.903229"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8679px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"><tspan
+           style="font-size:20.5644px;stroke-width:0.999995"
+           id="tspan2371">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.0751px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999995"
+           id="tspan2373">4</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7088px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999993"
+       x="251.23328"
+       y="47.479736"
+       id="text2385"><tspan
+         sodipodi:role="line"
+         id="tspan2383"
+         x="251.23328"
+         y="47.479736"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7088px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999993"><tspan
+           style="font-size:19.7922px;stroke-width:0.999993"
+           id="tspan2379">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.9082px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999993"
+           id="tspan2381">5</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.875px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999996"
+       x="292.96484"
+       y="47.477364"
+       id="text2393"><tspan
+         sodipodi:role="line"
+         id="tspan2391"
+         x="292.96484"
+         y="47.477364"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.875px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999996"><tspan
+           style="font-size:19.9029px;stroke-width:0.999996"
+           id="tspan2387">H</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.0755px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999996"
+           id="tspan2389">6</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.5053px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999993"
+       x="340.78177"
+       y="47.90324"
+       id="text2393-8"><tspan
+         sodipodi:role="line"
+         id="tspan2391-9"
+         x="340.78177"
+         y="47.90324"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.5053px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999993"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.7168px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999993"
+           id="tspan2389-6">P</tspan></tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.7842px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999998"
+       x="43.768112"
+       y="48.329441"
+       id="text2393-8-8"><tspan
+         sodipodi:role="line"
+         id="tspan2391-9-0"
+         x="43.768112"
+         y="48.329441"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.7842px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999998"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.0042px;font-family:Sahadeva;-inkscape-font-specification:'Sahadeva, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.999998"
+           id="tspan2389-6-2">T</tspan></tspan></text></g></svg>

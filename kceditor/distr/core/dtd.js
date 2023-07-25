@@ -58,37 +58,19 @@ kceditor.dtd = ( function() {
 
 	var X = kceditor.tools.extend,
 		// Subtraction rest of sets, from the first set.
-		Y = function( source, removed ) {
+		Y = function( source, removed )
+		{
 			var substracted = kceditor.tools.clone( source );
-			for ( var i = 1; i < arguments.length; i++ ) {
+			for ( var i = 1; i < arguments.length; i++ )
+			{
 				removed = arguments[ i ];
 				for ( var name in removed )
-					delete substracted[ name ];
+				{
+					delete substracted[name];
+				}
 			}
 			return substracted;
 		};
-
-	// Phrasing elements.
-	// P = { a: 1, em: 1, strong: 1, small: 1, abbr: 1, dfn: 1, i: 1, b: 1, s: 1,
-	//		u: 1, code: 1, 'var': 1, samp: 1, kbd: 1, sup: 1, sub: 1, q: 1, cite: 1,
-	//		span: 1, bdo: 1, bdi: 1, br: 1, wbr: 1, ins: 1, del: 1, img: 1, embed: 1,
-	//		object: 1, iframe: 1, map: 1, area: 1, script: 1, noscript: 1, ruby: 1,
-	//		video: 1, audio: 1, input: 1, textarea: 1, select: 1, button: 1, label: 1,
-	//		output: 1, keygen: 1, progress: 1, command: 1, canvas: 1, time: 1,
-	//		meter: 1, detalist: 1 },
-
-	// Flow elements.
-	// F = { a: 1, p: 1, hr: 1, pre: 1, ul: 1, ol: 1, dl: 1, div: 1, h1: 1, h2: 1,
-	//		h3: 1, h4: 1, h5: 1, h6: 1, hgroup: 1, address: 1, blockquote: 1, ins: 1,
-	//		del: 1, object: 1, map: 1, noscript: 1, section: 1, nav: 1, article: 1,
-	//		aside: 1, header: 1, footer: 1, video: 1, audio: 1, figure: 1, table: 1,
-	//		form: 1, fieldset: 1, menu: 1, canvas: 1, details:1 },
-
-	// Text can be everywhere.
-	// X( P, T );
-	// Flow elements set consists of phrasing elements set.
-	// X( F, P );
-
 	var P = {}, F = {},
 		// Intersection of flow elements set and phrasing elements set.
 		PF = {
@@ -367,4 +349,3 @@ kceditor.dtd = ( function() {
 	return dtd;
 } )();
 
-// PACKAGER_RENAME( kceditor.dtd )

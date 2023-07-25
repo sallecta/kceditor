@@ -537,9 +537,11 @@ kceditor.replaceClass = 'kceditor';
 	}
 
 	// Replace all textareas with the default class name.
-	kceditor.domReady( function() {
+	function replace_all_ta()
+	{
 		kceditor.replaceClass && kceditor.replaceAll( kceditor.replaceClass );
-	} );
+	}
+	kceditor.events.domReady( replace_all_ta );
 } )();
 
 /**

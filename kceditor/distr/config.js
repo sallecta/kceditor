@@ -5,8 +5,8 @@
 
 kceditor.editorConfig = function( a_config )
 {
-	a_config.plugins = 'dialogui,dialog,about,button,toolbar,enterkey,floatingspace,wysiwygarea,undo,sourcearea,editortxt';
-	a_config.skin = 'moono-lisa';
+	a_config.plugins = 'dialogui,dialog,about,button,toolbar,enterkey,floatingspace,wysiwygarea,undo,sourcearea,editortxt,btns';
+	a_config.skin = 'factory';
 	a_config.toolbarGroups = [
 		{ name: 'document',	   groups: [ 'mode', 'document', 'doctools' ] },
 		{ name: 'clipboard',   groups: [ 'clipboard', 'undo' ] },

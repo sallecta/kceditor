@@ -21,26 +21,25 @@ if ( !kceditor.loader ) {
 	kceditor.loader = ( function() {
 		// Table of script names and their dependencies.
 		var scripts = {
-			'_bootstrap': [
+			'bootstrap': [
 				'config', 'creators/inline', 'creators/themedui', 'editable', 'kceditor', 'plugins',
-				'scriptloader', 'style', 'tools', 'promise', 'selection/optimization', 'tools/color',
+				'scriptloader', 'style', 'tools', 'selection/optimization', 'tools/color',
 
 				// The following are entries that we want to force loading at the end to avoid dependence recursion.
 				'dom/comment', 'dom/elementpath', 'dom/text', 'dom/rangelist', 'skin'
 			],
 			'kceditor': [
-				'kceditor_basic', 'log', 'dom', 'dtd', 'dom/document', 'dom/element', 'dom/iterator', 'editor', 'event',
+				'kceditor_basic', 'log', 'dtd', 'dom/document', 'dom/element', 'dom/iterator', 'editor', 'event',
 				'htmldataprocessor', 'htmlparser', 'htmlparser/element', 'htmlparser/fragment', 'htmlparser/filter',
 				'htmlparser/basicwriter', 'template', 'tools'
 			],
 			'kceditor_basic': [ 'editor_basic', 'env', 'event' ],
 			'command': [],
 			'config': [],
-			'dom': [],
 			'dom/comment': [ 'dom/node' ],
 			'dom/document': [ 'dom/node', 'dom/window' ],
 			'dom/documentfragment': [ 'dom/element' ],
-			'dom/element': [ 'dom', 'dom/document', 'dom/domobject', 'dom/node', 'dom/nodelist', 'tools' ],
+			'dom/element': [ 'dom/document', 'dom/domobject', 'dom/node', 'dom/nodelist', 'tools' ],
 			'dom/elementpath': [ 'dom/element' ],
 			'dom/event': [],
 			'dom/iterator': [ 'dom/range' ],
@@ -87,7 +86,6 @@ if ( !kceditor.loader ) {
 			'ui': [],
 			'creators/themedui': [],
 			'creators/inline': [],
-			'promise': [ 'tools' ],
 			'selection/optimization': [ 'selection' ],
 			'tools/color': [ 'tools' ]
 		};
