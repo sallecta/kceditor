@@ -1,12 +1,12 @@
 kceditor.plugins.setLang( 'btns', 'ru', {
-		h1: 'Heading 1',
-		h2: 'Heading 2',
-		h3: 'Heading 3',
-		h4: 'Heading 4',
-		h5: 'Heading 5',
-		h6: 'Heading 6',
-		txt: 'Plain text',
-		p: 'Paragraph',
+		h1: 'Заголовок 1',
+		h2: 'Заголовок 2',
+		h3: 'Заголовок 3',
+		h4: 'Заголовок 4',
+		h5: 'Заголовок 5',
+		h6: 'Заголовок 6',
+		txt: 'Простой текст',
+		p: 'Параграф',
 	}
 );
 
